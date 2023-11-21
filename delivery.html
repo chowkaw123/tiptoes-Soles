@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tip toe Soles</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    
+    <body>
+        <div class="header">
+			<div class="logo">
+				<h1 href="index.html"><img src="tiptoe.png" alt="Tiptoe soles"></h1>
+			</div>
+			<div class="title">
+				<h2>Tip Toe Soles</h2>
+			</div>
+			<div class="icons">
+				<a><i class="fa-solid fa-cart-shopping"></i></a>
+                <a><i class="fa-solid fa-right-to-bracket"></i></a>
+                <div class="bars"><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a></div>
+                <a><input type="text" placeholder="Search..."><button type="submit" aria-label="Search"><i class="fas fa-search"></i></button></a>
+			</div>
+        </div>
+        <div class="content">
+			<div class="sidenav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="service.html">Services</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="feedback.html">Feedback</a></li>
+					<li><a href="about.html">About Us</a></li>
+				</ul>
+			</div>
+			<div class="main">
+				<h2>Delivery Policies</h2>
+				<p>TipToe Soles is confident that you will be happy with your purchase. If for any reason this is not the case, we offer FREE RETURNS for items over $60 within 28 days of the order date. TipToe Soles will not take responsibility for returned items not received if registered post is not used.
+					Within 28 days of the order date
+					Item must be unworn with the original tags still attached - we are unable to accept shoes with dirty marks or damaged soles.
+					Items must be returned in the original shoe box which must be in the original condition.
+					Postage is non-refundable
+					TipToe Soles reserves the right to refuse the return if these conditions are not adhered to.
+				</p>
+			</div>
+		</div>
+        <div class="footer">
+			<div class="footer-copy">
+                <p>&copy; Tip Toe Soles 2023</p>
+			</div>
+			<div class="return">
+					<a href="return.html">Return</a>
+                    <a href="exchange.html">Exchange</a>
+                    <a href="delivery.html">Delivery</a>
+			</div>
+		</div>
+        <script>
+            function myFunction() {
+                var x = document.getElementsByTagName("nav")[0];
+                if (x.style.display == "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+    </body>
+</html>
